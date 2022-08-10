@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Descripción
 
 Soy estudiante de la Maestría de Economía Aplicada (MEcA) en la [Universidad de los Andes (Colombia)](https://economia.uniandes.edu.co/). Anteriormente me gradué de Economista de la [Universidad Nacional del Callao (Perú)](https://fce.unac.edu.pe/).
 
