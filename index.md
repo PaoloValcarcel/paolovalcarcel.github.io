@@ -1,9 +1,10 @@
-## Welcome to GitHub Pages
+## Descripción
 
-You can use the [editor on GitHub](https://github.com/PaoloValcarcel/paolovalcarcel.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Soy estudiante de la Maestría de Economía Aplicada (MEcA) en la [Universidad de los Andes (Colombia)](https://economia.uniandes.edu.co/). Anteriormente me gradué de Economista de la [Universidad Nacional del Callao (Perú)](https://fce.unac.edu.pe/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Mis intereses son: regulación económica, economía ambiental, economía productiva, Big Data y econometría aplicada.
 
+Pueden encontrar mi [CV aqui](https://github.com/PaoloValcarcel/paolovalcarcel.github.io/blob/769c7398202744810aabe8c92f17e8638cb032fe/Documents/CV_Paolo_Valcarcel.pdf)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
