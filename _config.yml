@@ -1,1 +1,18 @@
 theme: jekyll-theme-minimal
+title: Paolo E. Valcarcel Pineda
+email: p.valcarcel@uniandes.edu.co
+description: Paolo E. Valcarcel Pineda
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com/PaoloValcarcel"
+
+# Build settings
+markdown: kramdown
+
+
+gems:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - packrat
