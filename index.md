@@ -1,10 +1,10 @@
 ## Welcome to GitHub Pages
 
-Soy estudiante de la Maestría de Economía Aplicada (MEcA) en la [Universidad de los Andes (Colombia)] (https://economia.uniandes.edu.co/). Anteriormente me gradué de Economista de la [Universidad Nacional del Callao (Perú)] (https://fce.unac.edu.pe/).
+Soy estudiante de la Maestría de Economía Aplicada (MEcA) en la [Universidad de los Andes (Colombia)](https://economia.uniandes.edu.co/). Anteriormente me gradué de Economista de la [Universidad Nacional del Callao (Perú)](https://fce.unac.edu.pe/).
 
 Mis intereses son: regulación económica, economía ambiental, economía productiva, Big Data y econometría aplicada.
 
-Pueden encontrar mi [CV aqui]()
+Pueden encontrar mi [CV aqui](https://github.com/PaoloValcarcel/paolovalcarcel.github.io/blob/769c7398202744810aabe8c92f17e8638cb032fe/Documents/CV_Paolo_Valcarcel.pdf)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
