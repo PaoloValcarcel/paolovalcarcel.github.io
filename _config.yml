@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
 email: p.valcarcel@uniandes.edu.co
-description: Paolo E. Valcarcel Pineda
-baseurl: "" # the subpath of your site, e.g. /blog
+description: Economics MSc student at Universidad de los Andes
+baseurl: "https://paolovalcarcel.github.io/"
 url: "https://github.com/PaoloValcarcel"
 
 # Build settings
