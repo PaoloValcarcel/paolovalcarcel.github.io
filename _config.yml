@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
+logo: ./Views/Programando.png
 email: p.valcarcel@uniandes.edu.co
 description: Economics MSc student at Universidad de los Andes
 baseurl: ""
