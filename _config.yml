@@ -5,13 +5,4 @@ email: p.valcarcel@uniandes.edu.co
 description: Economics MSc student at Universidad de los Andes
 baseurl: ""
 url: "https://github.com/PaoloValcarcel"
-markdown: kramdown
 
-
-gems:
-  - jekyll-feed
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - packrat
