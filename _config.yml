@@ -1,8 +1,4 @@
-gem 'jekyll-include-cache'
-plugins:
-  - jekyll-include-cache
-
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
 logo: ./Views/Programando.png
 description: Economics MSc student at Universidad de los Andes
