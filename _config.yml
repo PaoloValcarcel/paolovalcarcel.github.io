@@ -1,10 +1,7 @@
 theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
 logo: ./Views/Programando.png
-email: 
 description: Economics MSc student at Universidad de los Andes
-baseurl: ""
-repository: "https://github.com/PaoloValcarcel"
 email:
 links:
     - label: "Email"
