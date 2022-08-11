@@ -4,5 +4,6 @@ logo: ./Views/Programando.png
 email: p.valcarcel@uniandes.edu.co
 description: Economics MSc student at Universidad de los Andes
 baseurl: ""
-url: "https://github.com/PaoloValcarcel"
-
+repository: "https://github.com/PaoloValcarcel"
+url: "https://paolovalcarcel.github.io/"
+twitter: @paolo_valcarcel
