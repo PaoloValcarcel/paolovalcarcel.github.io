@@ -1,7 +1,3 @@
-jekyll-include-cache
-bundle
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
 theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
 logo: ./Views/Programando.png
