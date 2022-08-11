@@ -2,20 +2,8 @@ theme: jekyll-theme-minimal
 title: Paolo E. Valcarcel Pineda
 logo: ./Views/Programando.png
 description: Economics MSc student at Universidad de los Andes
-email:
-links:
-    - label: "Email"
-      icon: "./Views/correo.png"
-      # url: "mailto:p.valcarcel@uniandes.edu.co"
-    - label: "Website"
-      icon: "./Views/web.png"
-      # url: "https://paolovalcarcel.github.io/"
-    - label: "Twitter"
-      icon: "./Views/twitter.png"
-      # url: "@paolo_valcarcel"
-    - label: "GitHub"
-      icon: "./Views/github.png"
-      # url: "https://github.com/PaoloValcarcel"
-    - label: "Gitlab"
-      icon: "./Views/gitlab.png"
-      # url: "https://gitlab.com/PaoloValcarcel"
+email: "p.valcarcel@uniandes.edu.co"
+linkedin: "https://www.linkedin.com/in/paolo-emmanuel-valcarcel-pineda/"
+twitter: "@paolo_valcarcel"
+repository: "https://github.com/PaoloValcarcel"
+gitlab: "https://gitlab.com/PaoloValcarcel" 
