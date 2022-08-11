@@ -17,7 +17,7 @@ You can find my CV <a href="https://paolovalcarcel.github.io/Documents/CV_Paolo_
 
 ### Contac info
 
-<i class="fa fa-home"></i>  Departmento de Economía
+<i class="fa fa-home"></i>  Departamento de Economía
 
 Universidad de Los Andes
 
