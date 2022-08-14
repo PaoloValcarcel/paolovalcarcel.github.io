@@ -39,7 +39,7 @@
 - Add Microformats markup. [#3052](https://github.com/mmistakes/minimal-mistakes/pull/3052)
 - Add instructions on how to unminify `main.js` for easier browser debugging. [#3055](https://github.com/mmistakes/minimal-mistakes/pull/3055)
 
-## [4.24.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0)
 
 ### Bug Fixes
 
@@ -56,7 +56,7 @@
 - Replace custom search icon SVG with Font Awesome icon. [#2774](https://github.com/mmistakes/minimal-mistakes/pull/2774)
 - Adds support for giscus comments. [#3022](https://github.com/mmistakes/minimal-mistakes/pull/3022)
 
-## [4.23.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.23.0)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Enhancements
 
@@ -76,7 +76,7 @@
 - Remove all references to official public Staticman API instance. [#2818](https://github.com/mmistakes/minimal-mistakes/issues/2818) [#2831](https://github.com/mmistakes/minimal-mistakes/pull/2831)
 - Remove Google Search CSS. [#2852](https://github.com/mmistakes/minimal-mistakes/issues/2852) [#2855](https://github.com/mmistakes/minimal-mistakes/pull/2855)
 
-## [4.22.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.22.0)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Bug Fixes
 
@@ -97,7 +97,7 @@
 - Update allejo/jekyll-toc to v1.1.0, skip headings without an ID. [#2752](https://github.com/mmistakes/minimal-mistakes/pull/2752)
 - Allow custom gradient for page header overlay. [#2806](https://github.com/mmistakes/minimal-mistakes/pull/2806)
 
-## [4.21.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.21.0)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Bug Fixes
 
@@ -114,7 +114,7 @@
 - Add Norwegian (Norsk) localized UI text strings. [#2702](https://github.com/mmistakes/minimal-mistakes/pull/2702)
 - Update allejo/jekyll-toc to v1.0.14 [#2700](https://github.com/mmistakes/minimal-mistakes/pull/2700)
 
-## [4.20.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.20.2)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Bug Fixes
 
@@ -129,13 +129,13 @@
 - Refactor page meta include. [#2641](https://github.com/mmistakes/minimal-mistakes/pull/2641)
 - Add `article:author` Open Graph markup. [#2670](https://github.com/mmistakes/minimal-mistakes/pull/2670)
 
-## [4.20.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.20.1)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Bug Fixes
 
 - Fix `entries_layout: grid` in `home.html` layout. [#2616](https://github.com/mmistakes/minimal-mistakes/pull/2616)
 
-## [4.20.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.20.0)
+## ["4.13.0"](https://github.com/mmistakes/minimal-mistakes/releases/tag/"4.13.0")
 
 ### Bug Fixes
 
