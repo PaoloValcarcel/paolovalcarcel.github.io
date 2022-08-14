@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Paolo E. Valcarcel Pineda"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Paolo E. Valcarcel Pineda"
+name                     : "Paolo"
 port                     : 4000
 host                     : "0.0.0.0"
 description              : "My personal blog"
