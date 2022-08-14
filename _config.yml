@@ -7,15 +7,16 @@ highlighter:      pygments
 #relative_permalinks: true
 
 # Setup
-title:            About me
+title:            Paolo E. Valcarcel Pineda
 tagline:          'A Jekyll theme'
 description:      'Economics MSc student at Universidad de los Andes'
 #url:              http://hyde.getpoole.com
-baseurl:          /
+#baseurl:          /
 
-author:
-  name:           'Paolo E. Valcarcel Pineda'
-  twitter:            https://twitter.com/paolo_valcarcel
+#author:
+  #name:           'Paolo E. Valcarcel Pineda'
+
+twitter:         https://twitter.com/paolo_valcarcel
 
 paginate:         5
 
