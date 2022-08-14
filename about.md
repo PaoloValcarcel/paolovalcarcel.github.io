@@ -1,30 +1,31 @@
 ---
 layout: page
-title: About
+title: About me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I’m an Economics MSc student at [Universidad de los Andes (Colombia)](https://economia.uniandes.edu.co/). I previously studied my BSc at [Universidad Nacional del Callao (Perú)](https://fce.unac.edu.pe/). My primary interests are  Urban Economics, Production Economics, Regulatory Economics, Environmental Economics and Public Policy. I’m also interested in Applied Econometrics, Big Data and Machine Learning.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<br>
 
-There are currently two themes built on Poole:
+You can find my CV <a href="https://paolovalcarcel.github.io/Docs/CV_Paolo_Valcarcel.pdf">here</a>.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<br>
+<br>
+<br>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Contac info
 
-## Setup
+<i class="fa fa-home"></i>  Departamento de Economía
 
-Some fun facts about the setup of this project include:
+Universidad de Los Andes
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Calle 19A No.  1-37 Este Bloque W, Of. 821
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Bogotá, Colombia, 111711
 
-Thanks for reading!
+
+<i class="fa fa-envelope"></i> p.valcarcel@uniandes.edu.co <br>
+<i class="fa fa-envelope"></i> paolovp91@gmail.com
+
+<br>
+<br>
