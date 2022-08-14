@@ -23,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Paolo E. Valcarcel Pineda"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "Economics MSc student at Universidad de los Andes."
+description              : "My personal blog"
 url                      : https://paolovalcarcel.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -82,7 +82,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : @paolo_valcarcel
+  username               : PaoloValcarcel
 facebook:
   username               :
   app_id                 :
@@ -105,10 +105,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Paolo"
+  name             : "Paolo E. Valcarcel Pineda"
   avatar           : "/assets/images/Programando.png"
   bio              : "Economics MSc student at Universidad de los Andes."
-  location         : "Bogotá, Colombia"
+  location         : "Bogota, Colombia"
   email            : "p.valcarcel@uniandes.edu.co"
   links:
     - label: "Twitter"
