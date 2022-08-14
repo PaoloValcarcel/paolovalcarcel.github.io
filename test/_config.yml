@@ -96,16 +96,16 @@ author:
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   links:
-     label: "Your Website"
+    - label: "Your Website"
       icon: "fas fa-fw fa-link"
       url: "https://your-site.com"
-     label: "Twitter"
+    - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-     label: "GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-     label: "Instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
@@ -113,48 +113,48 @@ author:
 # Site Footer
 footer:
   links:
-     label: "Twitter"
+    - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-     label: "GitHub"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-     label: "Instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
 
 # Reading Files
 include:
-   .htaccess
-   _pages
+  - .htaccess
+  - _pages
 exclude:
-   "*.sublime-project"
-   "*.sublime-workspace"
-   vendor
-   .asset-cache
-   .bundle
-   .jekyll-assets-cache
-   .sass-cache
-   assets/js/plugins
-   assets/js/_main.js
-   assets/js/vendor
-   Capfile
-   CHANGELOG
-   config
-   Gemfile
-   Gruntfile.js
-   gulpfile.js
-   LICENSE
-   log
-   node_modules
-   package.json
-   Rakefile
-   README
-   tmp
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
 keep_files:
-   .git
-   .svn
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -190,7 +190,7 @@ sass:
 
 
 # Outputting
-#permalink: /:categories/:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -198,19 +198,19 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-   jekyll-paginate
-   jekyll-sitemap
-   jekyll-gist
-   jekyll-feed
-   jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
-   jekyll-paginate
-   jekyll-sitemap
-   jekyll-gist
-   jekyll-feed
-   jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 
 # Archives
@@ -266,7 +266,7 @@ collections:
 # Defaults
 defaults:
   # _posts
-   scope:
+  - scope:
       path: ""
       type: posts
     values:
@@ -276,14 +276,14 @@ defaults:
       share: true
       related: true
   # _pages
-   scope:
+  - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
   # _recipes
-   scope:
+  - scope:
       path: ""
       type: recipes
     values:
@@ -291,7 +291,7 @@ defaults:
       author_profile: true
       share: true
   # _pets
-   scope:
+  - scope:
       path: ""
       type: pets
     values:
@@ -299,7 +299,7 @@ defaults:
       author_profile: true
       share: true
   # _portfolio
-   scope:
+  - scope:
       path: ""
       type: portfolio
     values:
