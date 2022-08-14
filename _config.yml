@@ -17,10 +17,10 @@ minimal_mistakes_skin2   : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Paolo"
+title                    : "Paolo E. Valcarcel Pineda"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Paolo"
+name                     : "Paolo E. Valcarcel Pineda"
 port                     : 4000
 host                     : "0.0.0.0"
 description              : "My personal blog"
@@ -82,7 +82,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : PaoloValcarcel
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Paolo E. Valcarcel Pineda"
-  avatar           : "/assets/images/Paolo_Valcarcel.png"
+  avatar           : "/assets/images/Paolo_Valcarcel.jpg"
   bio              : "Economics MSc student at Universidad de los Andes."
   location         : "Bogota, Colombia"
   email            : "p.valcarcel@uniandes.edu.co"
