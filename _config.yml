@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin2   : "dark"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dirt", "neon", "mint", "plum", "sunrise"
+#minimal_mistakes_skin2   : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "vladsiv"
+title                    : "Paolo E. Valcarcel Pineda"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "vladsiv"
+name                     : "Paolo E. Valcarcel Pineda"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "A blog discussing topics around programming, data science/engineering, and cloud technologies."
-url                      : https://www.vladsiv.com
+description              : "Economics MSc student at Universidad de los Andes."
+url                      : https://paolovalcarcel.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -82,7 +82,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : vlad_siv
+  username               : @paolo_valcarcel
 facebook:
   username               :
   app_id                 :
@@ -105,21 +105,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vladsiv"
-  avatar           : "/assets/images/avatar.jpg"
-  bio              : "Theoretical physicist & biophysicist interested in programming, data science/engineering, and cloud technologies."
-  location         : "Novi Sad, Serbia"
-  email            : "vladsiv@protonmail.com"
+  name             : "Paolo"
+  avatar           : "/assets/images/Programando.png"
+  bio              : "Economics MSc student at Universidad de los Andes."
+  location         : "Bogotá, Colombia"
+  email            : "p.valcarcel@uniandes.edu.co"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url:  https://twitter.com/paolo_valcarcel
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/VladimirSiv
+      url: https://github.com/PaoloValcarcel
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -128,13 +128,13 @@ author:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: https://www.instagram.com/vlad__siv/
+      #url: https://www.instagram.com/vlad__siv/
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
-      url: https://stackoverflow.com/users/10947997/vlad-siv
+      #url: https://stackoverflow.com/users/10947997/vlad-siv
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: https://rs.linkedin.com/in/vladimirsiv
+      url: https://www.linkedin.com/in/paolo-emmanuel-valcarcel-pineda/
 
 # Site Footer
 footer:
