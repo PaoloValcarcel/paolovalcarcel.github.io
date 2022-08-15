@@ -14,7 +14,7 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin2   : "dark"
-minimal_mistakes_skin2   : "air"
+minimal_mistakes_skin3   : "air"
 
 # Site Settings
 locale                   : "en-US"
