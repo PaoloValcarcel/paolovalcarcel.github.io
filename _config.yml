@@ -111,6 +111,7 @@ author:
   location         : "Bogota, Colombia"
   links:
     - label: "Email"
+      icon: "fab fa-fw fa-email"
       email: "p.valcarcel@uniandes.edu.co"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
