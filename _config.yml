@@ -97,9 +97,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag"
+  provider               : ""
   google:
-    tracking_id          : "G-S3HVB75N7H"
+    tracking_id          : ""
     anonymize_ip         : true
 
 
@@ -109,17 +109,18 @@ author:
   avatar           : "/assets/images/Paolo_Valcarcel.jpg"
   bio              : "Economics MSc student at Universidad de los Andes."
   location         : "Bogota, Colombia"
-  email            : "p.valcarcel@uniandes.edu.co"
   links:
+    - label: "Email"
+      email: "p.valcarcel@uniandes.edu.co"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/PaoloValcarcel
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url:  https://twitter.com/paolo_valcarcel
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/PaoloValcarcel
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
