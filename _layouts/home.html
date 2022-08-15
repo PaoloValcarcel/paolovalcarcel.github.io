@@ -4,45 +4,19 @@ layout: archive
 
 {{ content }}
 
-<!------------- Panel de la derecha ------------->
-<div class="col-sm-8">
-  <p><br> </br> <!--- Agrega lineas en blanco ---></p>
-  <div id="about-me" class="section level3">
-  <h3>About me</h3>
-  <p>### About me
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-    I’m an Economics MSc student at [Universidad de los Andes (Colombia)](https://economia.uniandes.edu.co/). 
-    I previously studied my BSc at [Universidad Nacional del Callao (Perú)](https://fce.unac.edu.pe/). 
-    My primary interests are  Urban Economics, Production Economics, Regulatory Economics, Environmental Economics 
-    and Public Policy. I’m also interested in Applied Econometrics, Big Data and Machine Learning.</p>
-  <p>You can find my CV
-  <a href="https://paolovalcarcel.github.io/assets/CV/CV_Paolo_Valcarcel.pdf">here</a>.</p>
-  </div>
-  </p></li>
- 
-  </p></li>
-  </ul>
-  </div>
-  <div id="contac-info" class="section level3">
-  <h3>Contac info</h3>
-  <!-- Correo -->
-  <p><span id="person-email"
-  itemprop="email"><a href="p.valcarcel@uniandes.edu.co" style="color:black;">
-  <img alt="Qries" src="/assets/images/correo.png" width=30" height="30">
-  p.valcarcel@uniandes.edu.co</a></span></p>
-  <!-- Correo -->
-  <p><span id="person-email"
-      itemprop="email"><a href="paolovp91@gmail.com" style="color:black;">
-      <img alt="Qries" src="/assets/images/correo.png" width=30" height="30">
-      paolovp91@gmail.com</a></span></p>
-  <!-- Location -->
-  <p><a href="https://www.google.com/maps/place/Universidad+de+los+Andes/@4.6014634,-74.0683221,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f99a4a124b335:0x8e9f4683d1db9cb!8m2!3d4.6014581!4d-74.0661334" style="color:black;">
-  <img alt="Qries" src="/assets/images/location.png" width=30" height="30">
-  Department of Economics, Universidad de los Andes, Bogotá,
-  Colombia.</a></p>
-  <!-- Tel -->
-  <p><img alt="Qries" src="/assets/images/tel.png" width=30" height="30"> (+57)
-  3013940053 </img></p>
-  </div>
-  </div>
-  <p><!--- FIn del panel de la derecha ---></p>
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts limit:4 %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
