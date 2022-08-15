@@ -2,9 +2,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "Cool Links"
-    url: /cool-links/
-  - title: "Archive"
-    url: /archive/
-  - title: "About"
-    url: /about/
+  #- title: "Cool Links"
+  #  url: /cool-links/
+  #- title: "Archive"
+  #  url: /archive/
+  #- title: "About"
+  #  url: /about/
