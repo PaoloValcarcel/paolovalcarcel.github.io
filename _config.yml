@@ -73,8 +73,8 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# SEO Related
-google_site_verification : cDhxPyxCVwiV7V10ceLfrbgyoCnldDCIiQrvhua-zyI
+# SEO Related "cDhxPyxCVwiV7V10ceLfrbgyoCnldDCIiQrvhua-zyI"
+google_site_verification : 5qmVAoKbvLFrdg67H4uC3o7zWXM4UQKYdJnWrye8KFc
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
