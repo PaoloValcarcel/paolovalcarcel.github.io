@@ -1,1 +1,3 @@
-Sitemap: https://www.vladsiv.com/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: 
