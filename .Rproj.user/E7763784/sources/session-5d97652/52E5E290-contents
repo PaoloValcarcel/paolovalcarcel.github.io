@@ -1,0 +1,87 @@
+---
+title: "Central Business District - CBD"
+author: "Paolo E. Valcarcel Pineda"
+date: "Febrero 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Un Central Business District (CBD) es el área de actividad comercial densamente concentrada que forma un núcleo de densidad económica y poblacional en una ciudad o región. En algunas ciudades, el CBD también se le denomina como distrito financiero, pero eso suele ser cierto en ciudades donde la industria financiera tiene una gran presencia. Los distritos comerciales centrales suelen incluir numerosos tipos de empresas y emprendimientos comerciales.
+
+En este caso, se presenta un ejercicio de construcción de un CBD para la industria de zapatos en Colombia, especificamente en el departamento de Bogotá.
+
+```{r cars}
+rm(list = ls())
+require(pacman) 
+p_load(tidyverse, rio, dplyr, stringr, sf, leaflet, rgeos, osmdata, class, skimr,
+       stargazer, plotly, tmaptools, viridis, ggsn, tmap, sp, rgdal, raster, ggvoronoi,
+       here, devtools, lmtest, sandwich, gstat, nngeo, spdep, SpatialKDE)
+
+Bogota<- st_read(dsn = "D:/NUEVO D/UNIANDES/TESIS MEcA/Tesis Camila/upz-bogota.shp")
+Bogota <- Bogota %>% dplyr::select(codigo_upz, nombre, geometry)
+
+bbox_bogota <- st_bbox(Bogota)
+Tiendas <- opq(bbox = bbox_bogota, timeout = 25) %>%
+  add_osm_feature(key = 'shop', value = 'shoes') %>%
+  osmdata_sf()
+
+Zapatos <- Tiendas$osm_points
+
+Zapatos <- Zapatos %>%
+  st_transform(3116) 
+
+st_bbox(Zapatos)
+
+cell_size <- 500
+band_width <- 2000
+
+grid <- Zapatos %>%
+  create_grid_rectangular(cell_size = cell_size, side_offset = band_width)
+
+kde <- Zapatos %>%
+  kde(band_width = band_width, kernel = "quartic", grid = grid)
+
+# Primera forma 
+
+tm_shape(kde) +
+  tm_polygons(col = "kde_value", palette = "viridis", title = "CBD Zapatos") +
+  tm_shape(Zapatos) +
+  tm_bubbles(size = 0.1, col = "red")
+
+plot_existente <- tm_shape(kde) +
+  tm_polygons(col = "kde_value", palette = "viridis", title = "CBD Zapatos")
+
+plot_final <- plot_existente +
+  tm_shape(Bogota) +
+  tm_borders(col = "gray", lwd = 0.5)   
+
+plot_final
+
+# Segunda forma 
+kde <- kde %>%
+  filter(kde_value!=0.000000000)
+
+kde <- kde %>%
+  filter(kde_value>52.36618)
+
+tmap_mode(mode = c("view"))
+
+Final <- tm_shape(Bogota) +
+         tm_borders(alpha=.8, col = "black") + 
+         tm_shape(kde) +
+         tm_polygons(col = "kde_value", palette = "viridis", title = "CBD Zapatos") 
+  
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+Final
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
