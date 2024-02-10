@@ -116,7 +116,7 @@ author:
       url: https://github.com/PaoloValcarcel
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url:  https://twitter.com/PaoloValcarcel
+      url:  https://twitter.com/paolo_valcarcel
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -169,6 +169,13 @@ footer:
 include:
   - .htaccess
   - _pages
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
