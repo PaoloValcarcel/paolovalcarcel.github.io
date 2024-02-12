@@ -3,8 +3,8 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
+    url: https://rpubs.com/PaoloVP/CBD
+  - title: "Prueba"
     url: /
-  #- title: "Archive"
-  #  url: /archive/
   #- title: "About"
   #  url: /about/
