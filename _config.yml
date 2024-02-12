@@ -115,7 +115,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: https://github.com/PaoloValcarcel
     - label: "Twitter"
-      icon: "fas fa-times-square"
+      icon: "fab fa-fw fa-twitter-square"
       url:  https://twitter.com/paolo_valcarcel
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
