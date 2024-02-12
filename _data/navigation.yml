@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  #- title: "Cool Links"
-  #  url: /cool-links/
+  - title: "Blog"
+    url: https://rpubs.com/PaoloVP/CBD
   #- title: "Archive"
   #  url: /archive/
   #- title: "About"
