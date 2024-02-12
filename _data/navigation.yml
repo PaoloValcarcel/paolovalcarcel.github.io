@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "Home"
-    url: /
+    url: /Home/
   - title: "Blog"
     url: /Blog/
-  - title: "Prueba"
-    url: https://rpubs.com/PaoloVP/CBD
+  #- title: ""
+  #  url: https://rpubs.com/PaoloVP/CBD
   #- title: "About"
   #  url: /about/
