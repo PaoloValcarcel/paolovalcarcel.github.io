@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /
+    url: /Blog/
   - title: "Prueba"
     url: https://rpubs.com/PaoloVP/CBD
   #- title: "About"
