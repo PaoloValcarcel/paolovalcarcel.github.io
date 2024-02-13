@@ -2,6 +2,6 @@
 title: Blog
 page_title: Blog
 permalink: /Blog/
-layout: single
+layout: posts
 author_profile: false
 ---
