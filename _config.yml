@@ -304,7 +304,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages #posts
+      type: posts
     values:
       layout: single
       show_date: true
