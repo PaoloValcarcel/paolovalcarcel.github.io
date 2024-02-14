@@ -2,7 +2,5 @@
 main:
   - title: "Home"
     url: /
-  - title: "Blog"
-    url: /blog/
   #- title: ""
   #  url: https://rpubs.com/PaoloVP/CBD
