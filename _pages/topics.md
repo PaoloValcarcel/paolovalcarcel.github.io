@@ -1,7 +1,7 @@
 ---
 title: "List of topics"
 layout: collection
-permalink: /photography/
+permalink: /topics/
 collection: photography
 entries_layout: grid
 classes: wide
