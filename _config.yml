@@ -309,7 +309,7 @@ defaults:
       layout: single
       show_date: true
       # classes: wide
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: false
       share: false
