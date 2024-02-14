@@ -4,7 +4,7 @@ main:
     url: /
   - title: "Blog"
     url: /Blog/
+  - title: "Teaching"
+    url: /aboutTeaching/
   #- title: ""
   #  url: https://rpubs.com/PaoloVP/CBD
-  #- title: "About"
-  #  url: /about/
