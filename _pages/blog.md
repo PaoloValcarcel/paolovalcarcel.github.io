@@ -3,7 +3,7 @@ title:  Blog
 page_title: Blog
 layout: single
 permalink: /blog/
-author_profile: false
+author_profile: true
 comments: false
 ---
 
