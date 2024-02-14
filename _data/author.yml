@@ -1,0 +1,18 @@
+# /_data/authors.yml
+
+Paolo Valcarcel:
+  name        : "Paolo E. Valcarcel Pineda"
+  avatar      : "/assets/images/Paolo_Valcarcel.jpg"
+  bio         : "Applied Economics MSc at Universidad de los Andes."
+  location    : "Bogotá, Colombia"
+  email       : "p.valcarcel@uniandes.edu.co"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/PaoloValcarcel
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url:  https://twitter.com/paolo_valcarcel
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/paolo-emmanuel-valcarcel-pineda/
