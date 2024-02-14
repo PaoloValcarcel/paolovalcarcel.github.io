@@ -2,8 +2,6 @@
 main:
   - title: "Home"
     url: /
-  #- title: "RPubs"
-  #  url: https://rpubs.com/PaoloVP/CBD
   #- title: "Theory"
   #  url: /theory/
   - title: "Photography"
