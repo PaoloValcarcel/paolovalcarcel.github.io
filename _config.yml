@@ -309,8 +309,8 @@ defaults:
       layout: single
       show_date: true
       # classes: wide
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
+      read_time: false
+      comments: false
       share: false
       related: false
