@@ -5,6 +5,7 @@ layout: single
 permalink: /theory/
 author_profile: false
 comments: false
+published: false
 ---
 
 ## Ecnomic theory topics
