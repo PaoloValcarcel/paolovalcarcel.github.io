@@ -4,7 +4,7 @@ main:
     url: /
   - title: "RPubs"
     url: https://rpubs.com/PaoloVP/CBD
-  - title: "Blog"
-    url: /blog/
+  #- title: "Theory"
+  #  url: /theory/
   - title: "Photography"
     url: /photography/

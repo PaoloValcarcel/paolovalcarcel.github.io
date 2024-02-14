@@ -1,11 +1,10 @@
 ---
-title:  Blog
-page_title: Blog
+title:  Economic Theory
+page_title: Economic Theory
 layout: single
-permalink: /blog/
+permalink: /theory/
 author_profile: false
 comments: false
-published: false
 ---
 
 ## Ecnomic theory topics
