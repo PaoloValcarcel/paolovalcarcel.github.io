@@ -1,9 +1,8 @@
 ---
-title: 'Blog'
-layout: single
-permalink: /Blog/
+title: Blog
+layout: home
+page_title: Blog
+permalink: /blog/
 author_profile: true
+publish: false
 ---
-
-## Activities
-lets do it

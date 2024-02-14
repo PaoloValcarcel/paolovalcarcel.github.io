@@ -3,6 +3,6 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /_pages/Blog/
+    url: /blog/
   #- title: ""
   #  url: https://rpubs.com/PaoloVP/CBD
