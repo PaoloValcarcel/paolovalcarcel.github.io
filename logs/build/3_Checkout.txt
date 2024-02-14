@@ -1,0 +1,82 @@
+﻿2024-02-14T17:00:22.9363354Z ##[group]Run actions/checkout@v4
+2024-02-14T17:00:22.9363927Z with:
+2024-02-14T17:00:22.9364233Z   ref: main
+2024-02-14T17:00:22.9364555Z   submodules: recursive
+2024-02-14T17:00:22.9365136Z   repository: PaoloValcarcel/paolovalcarcel.github.io
+2024-02-14T17:00:22.9365780Z   token: ***
+2024-02-14T17:00:22.9366122Z   ssh-strict: true
+2024-02-14T17:00:22.9366547Z   persist-credentials: true
+2024-02-14T17:00:22.9366938Z   clean: true
+2024-02-14T17:00:22.9367280Z   sparse-checkout-cone-mode: true
+2024-02-14T17:00:22.9367786Z   fetch-depth: 1
+2024-02-14T17:00:22.9368097Z   fetch-tags: false
+2024-02-14T17:00:22.9368437Z   show-progress: true
+2024-02-14T17:00:22.9368852Z   lfs: false
+2024-02-14T17:00:22.9369135Z   set-safe-directory: true
+2024-02-14T17:00:22.9369506Z ##[endgroup]
+2024-02-14T17:00:23.1548034Z Syncing repository: PaoloValcarcel/paolovalcarcel.github.io
+2024-02-14T17:00:23.1550466Z ##[group]Getting Git version info
+2024-02-14T17:00:23.1552001Z Working directory is '/home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io'
+2024-02-14T17:00:23.1553635Z [command]/usr/bin/git version
+2024-02-14T17:00:23.1554331Z git version 2.43.0
+2024-02-14T17:00:23.1569046Z ##[endgroup]
+2024-02-14T17:00:23.1586317Z Temporarily overriding HOME='/home/runner/work/_temp/ef3ab885-b242-44a1-b900-f94a3be09072' before making global git config changes
+2024-02-14T17:00:23.1588125Z Adding repository directory to the temporary git global config as a safe directory
+2024-02-14T17:00:23.1590106Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io
+2024-02-14T17:00:23.1625590Z Deleting the contents of '/home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io'
+2024-02-14T17:00:23.1630912Z ##[group]Initializing the repository
+2024-02-14T17:00:23.1634849Z [command]/usr/bin/git init /home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io
+2024-02-14T17:00:23.1696213Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-02-14T17:00:23.1697568Z hint: is subject to change. To configure the initial branch name to use in all
+2024-02-14T17:00:23.1698984Z hint: of your new repositories, which will suppress this warning, call:
+2024-02-14T17:00:23.1699761Z hint: 
+2024-02-14T17:00:23.1700206Z hint: 	git config --global init.defaultBranch <name>
+2024-02-14T17:00:23.1700924Z hint: 
+2024-02-14T17:00:23.1701575Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-02-14T17:00:23.1702362Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-02-14T17:00:23.1703050Z hint: 
+2024-02-14T17:00:23.1703390Z hint: 	git branch -m <name>
+2024-02-14T17:00:23.1706720Z Initialized empty Git repository in /home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io/.git/
+2024-02-14T17:00:23.1717882Z [command]/usr/bin/git remote add origin https://github.com/PaoloValcarcel/paolovalcarcel.github.io
+2024-02-14T17:00:23.1750975Z ##[endgroup]
+2024-02-14T17:00:23.1752308Z ##[group]Disabling automatic garbage collection
+2024-02-14T17:00:23.1754587Z [command]/usr/bin/git config --local gc.auto 0
+2024-02-14T17:00:23.1782946Z ##[endgroup]
+2024-02-14T17:00:23.1783958Z ##[group]Setting up auth
+2024-02-14T17:00:23.1788987Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-02-14T17:00:23.1818469Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-02-14T17:00:23.2110300Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-02-14T17:00:23.2138624Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-02-14T17:00:23.2371102Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-02-14T17:00:23.2405851Z ##[endgroup]
+2024-02-14T17:00:23.2406827Z ##[group]Fetching the repository
+2024-02-14T17:00:23.2416445Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+2024-02-14T17:00:23.8263281Z From https://github.com/PaoloValcarcel/paolovalcarcel.github.io
+2024-02-14T17:00:23.8265183Z  * [new branch]      main       -> origin/main
+2024-02-14T17:00:23.8291118Z ##[endgroup]
+2024-02-14T17:00:23.8292147Z ##[group]Determining the checkout info
+2024-02-14T17:00:23.8297348Z [command]/usr/bin/git branch --list --remote origin/main
+2024-02-14T17:00:23.8323141Z   origin/main
+2024-02-14T17:00:23.8330970Z ##[endgroup]
+2024-02-14T17:00:23.8331909Z ##[group]Checking out the ref
+2024-02-14T17:00:23.8335603Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2024-02-14T17:00:23.8768920Z Switched to a new branch 'main'
+2024-02-14T17:00:23.8769897Z branch 'main' set up to track 'origin/main'.
+2024-02-14T17:00:23.8778062Z ##[endgroup]
+2024-02-14T17:00:23.8778772Z ##[group]Setting up auth for fetching submodules
+2024-02-14T17:00:23.8783302Z [command]/usr/bin/git config --global http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-02-14T17:00:23.8822717Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+2024-02-14T17:00:23.8853986Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+2024-02-14T17:00:23.8883529Z ##[endgroup]
+2024-02-14T17:00:23.8884228Z ##[group]Fetching submodules
+2024-02-14T17:00:23.8888686Z [command]/usr/bin/git submodule sync --recursive
+2024-02-14T17:00:23.9138417Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+2024-02-14T17:00:23.9384634Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+2024-02-14T17:00:23.9616021Z ##[endgroup]
+2024-02-14T17:00:23.9616879Z ##[group]Persisting credentials for submodules
+2024-02-14T17:00:23.9621458Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'url\.https\:\/\/github\.com\/\.insteadOf' && git config --local --unset-all 'url.https://github.com/.insteadOf' || :"
+2024-02-14T17:00:23.9860600Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local 'http.https://github.com/.extraheader' 'AUTHORIZATION: basic ***' && git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2024-02-14T17:00:24.0098694Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'git@github.com:'
+2024-02-14T17:00:24.0330569Z ##[endgroup]
+2024-02-14T17:00:24.0363970Z [command]/usr/bin/git log -1 --format='%H'
+2024-02-14T17:00:24.0385809Z '8e1fd107c10bc4163533c5815bc500a2753cbab2'

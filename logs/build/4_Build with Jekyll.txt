@@ -1,0 +1,77 @@
+﻿2024-02-14T17:00:24.0697615Z ##[group]Run actions/jekyll-build-pages@v1
+2024-02-14T17:00:24.0698356Z with:
+2024-02-14T17:00:24.0698621Z   source: .
+2024-02-14T17:00:24.0699026Z   destination: ./_site
+2024-02-14T17:00:24.0699399Z   future: false
+2024-02-14T17:00:24.0699776Z   build_revision: 8e1fd107c10bc4163533c5815bc500a2753cbab2
+2024-02-14T17:00:24.0700324Z   verbose: true
+2024-02-14T17:00:24.0700825Z   token: ***
+2024-02-14T17:00:24.0701141Z ##[endgroup]
+2024-02-14T17:00:24.0903595Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1011_e5a52f --label 3ede5b --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/paolovalcarcel.github.io/paolovalcarcel.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.11
+2024-02-14T17:00:24.5161365Z fatal: detected dubious ownership in repository at '/github/workspace'
+2024-02-14T17:00:24.5162535Z To add an exception for this directory, call:
+2024-02-14T17:00:24.5162869Z 
+2024-02-14T17:00:24.5163262Z 	git config --global --add safe.directory /github/workspace
+2024-02-14T17:00:24.5442813Z Resolving dependencies...
+2024-02-14T17:00:24.5452164Z Bundler can't satisfy your Gemfile's dependencies.
+2024-02-14T17:00:24.5452778Z Install missing gems with `bundle install`.
+2024-02-14T17:00:24.5503628Z ##[warning]The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+2024-02-14T17:00:25.3327081Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2024-02-14T17:00:25.9483204Z /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/excerpt.rb:91: warning: Jekyll::Excerpt#yaml_file? at /usr/local/lib/ruby/2.7.0/forwardable.rb:154 forwarding to private method Jekyll::Page#yaml_file?
+2024-02-14T17:00:25.9501685Z [31m  Liquid Exception: undefined method `yaml_file?' for #<Jekyll::Page @name="index.md"> in /_layouts/single.html[0m
+2024-02-14T17:00:25.9505235Z /usr/local/lib/ruby/2.7.0/forwardable.rb:233:in `yaml_file?': undefined method `yaml_file?' for #<Jekyll::Page @name="index.md"> (NoMethodError)
+2024-02-14T17:00:25.9507152Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/excerpt.rb:91:in `render_with_liquid?'
+2024-02-14T17:00:25.9508858Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:77:in `render_document'
+2024-02-14T17:00:25.9510155Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:62:in `run'
+2024-02-14T17:00:25.9511407Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/excerpt.rb:83:in `output'
+2024-02-14T17:00:25.9513439Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/excerpt.rb:70:in `to_s'
+2024-02-14T17:00:25.9514415Z 	from /usr/local/lib/ruby/2.7.0/forwardable.rb:235:in `to_s'
+2024-02-14T17:00:25.9515596Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/filters.rb:19:in `markdownify'
+2024-02-14T17:00:25.9516978Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/strainer.rb:56:in `invoke'
+2024-02-14T17:00:25.9518250Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:86:in `invoke'
+2024-02-14T17:00:25.9519584Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:84:in `block in render'
+2024-02-14T17:00:25.9521018Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `each'
+2024-02-14T17:00:25.9522562Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `inject'
+2024-02-14T17:00:25.9523793Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/variable.rb:82:in `render'
+2024-02-14T17:00:25.9525449Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+2024-02-14T17:00:25.9526943Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:80:in `render'
+2024-02-14T17:00:25.9528384Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:46:in `block (2 levels) in render'
+2024-02-14T17:00:25.9529879Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:44:in `each'
+2024-02-14T17:00:25.9531222Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:44:in `block in render'
+2024-02-14T17:00:25.9532532Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:123:in `stack'
+2024-02-14T17:00:25.9533855Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:43:in `render'
+2024-02-14T17:00:25.9535288Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+2024-02-14T17:00:25.9536724Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:82:in `render'
+2024-02-14T17:00:25.9538181Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:206:in `block in render'
+2024-02-14T17:00:25.9539646Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:240:in `with_profiling'
+2024-02-14T17:00:25.9541004Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:205:in `render'
+2024-02-14T17:00:25.9542399Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:218:in `render!'
+2024-02-14T17:00:25.9543925Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/liquid_renderer/file.rb:30:in `block (2 levels) in render!'
+2024-02-14T17:00:25.9545583Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/liquid_renderer/file.rb:42:in `measure_bytes'
+2024-02-14T17:00:25.9547326Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/liquid_renderer/file.rb:29:in `block in render!'
+2024-02-14T17:00:25.9548960Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+2024-02-14T17:00:25.9550488Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/liquid_renderer/file.rb:28:in `render!'
+2024-02-14T17:00:25.9552117Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:126:in `render_liquid'
+2024-02-14T17:00:25.9553517Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:195:in `render_layout'
+2024-02-14T17:00:25.9554923Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:158:in `place_in_layouts'
+2024-02-14T17:00:25.9556484Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:88:in `render_document'
+2024-02-14T17:00:25.9557826Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/renderer.rb:62:in `run'
+2024-02-14T17:00:25.9559137Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:479:in `render_regenerated'
+2024-02-14T17:00:25.9560667Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:472:in `block in render_pages'
+2024-02-14T17:00:25.9562182Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:471:in `each'
+2024-02-14T17:00:25.9563750Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:471:in `render_pages'
+2024-02-14T17:00:25.9565342Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:192:in `render'
+2024-02-14T17:00:25.9566635Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/site.rb:71:in `process'
+2024-02-14T17:00:25.9567928Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/command.rb:28:in `process_site'
+2024-02-14T17:00:25.9569382Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/commands/build.rb:65:in `build'
+2024-02-14T17:00:25.9570804Z 	from /usr/local/bundle/gems/jekyll-3.9.5/lib/jekyll/commands/build.rb:36:in `process'
+2024-02-14T17:00:25.9572421Z 	from /usr/local/bundle/gems/github-pages-230/bin/github-pages:70:in `block (3 levels) in <top (required)>'
+2024-02-14T17:00:25.9574151Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+2024-02-14T17:00:25.9575643Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+2024-02-14T17:00:25.9577023Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+2024-02-14T17:00:25.9578499Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+2024-02-14T17:00:25.9579755Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+2024-02-14T17:00:25.9581104Z 	from /usr/local/bundle/gems/github-pages-230/bin/github-pages:6:in `<top (required)>'
+2024-02-14T17:00:25.9582345Z 	from /usr/local/bundle/bin/github-pages:23:in `load'
+2024-02-14T17:00:25.9583197Z 	from /usr/local/bundle/bin/github-pages:23:in `<main>'
+2024-02-14T17:00:25.9768224Z ##[error] Logging at level: debug Configuration file: /github/workspace/./_config.yml GitHub Pages: github-pages v230 GitHub Pages: jekyll v3.9.5 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-paginate Requiring: jekyll-sitemap Requiring: jekyll-gist Requiring: jekyll-feed Requiring: jekyll-include-cache Requiring: jemoji Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-github-metadata Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/. Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... EntryFilter: excluded /README.md EntryFilter: excluded /CHANGELOG.md EntryFilter: excluded /package.json EntryFilter: excluded /Rakefile EntryFilter: excluded /Gemfile EntryFilter: excluded /LICENSE Reading: _posts/2024-02-12-CBD.md EntryFilter: excluded /assets/js/vendor EntryFilter: excluded /assets/js/plugins Generating: JekyllOptionalFrontMatter::Generator finished in 3.5546e-05 seconds. Generating: JekyllReadmeIndex::Generator finished in 4.4343e-05 seconds. Generating: Jekyll::Paginate::Pagination finished in 5.22e-06 seconds. Generating: Jekyll::JekyllSitemap finished in 0.001931138 seconds. Jekyll Feed: Generating feed for posts Generating: JekyllFeed::Generator finished in 0.000686823 seconds. Generating: JekyllRelativeLinks::Generator finished in 0.001258461 seconds. Generating: JekyllDefaultLayout::Generator finished in 8.7894e-05 seconds. Generating: JekyllTitlesFromHeadings::Generator finished in 1.5369e-05 seconds. Rendering: _posts/2024-02-12-CBD.md Pre-Render Hooks: _posts/2024-02-12-CBD.md Rendering Markup: _posts/2024-02-12-CBD.md Requiring: kramdown-parser-gfm Rendering Layout: _posts/2024-02-12-CBD.md Layout source: site GitHub Metadata: Generating for PaoloValcarcel/paolovalcarcel.github.io GitHub Metadata: Calling @client.pages("PaoloValcarcel/paolovalcarcel.github.io", {}) Include cache miss: /github/workspace/_includes/skip-links.html Include cache miss: /github/workspace/_includes/browser-upgrade.html Include cache miss: /github/workspace/_includes/masthead.html Include cache miss: /github/workspace/_includes/footer.html Rendering: _pages/Blog.md Pre-Render Hooks: _pages/Blog.md Rendering Markup: _pages/Blog.md Rendering Layout: _pages/Blog.md Layout source: site Include cache hit: /github/workspace/_includes/skip-links.html Include cache hit: /github/workspace/_includes/browser-upgrade.html Include cache hit: /github/workspace/_includes/masthead.html Include cache hit: /github/workspace/_includes/footer.html Rendering: index.html Pre-Render Hooks: index.html Rendering Markup: index.html Rendering Layout: index.html Layout source: site Include cache hit: /github/workspace/_includes/skip-links.html Include cache hit: /github/workspace/_includes/browser-upgrade.html Include cache hit: /github/workspace/_includes/masthead.html Include cache hit: /github/workspace/_includes/footer.html Rendering: index.md Pre-Render Hooks: index.md Rendering Markup: index.md Rendering Layout: index.md Layout source: site Rendering: index.md/#excerpt Pre-Render Hooks: index.md/#excerpt github-pages 230 | Error: undefined method `yaml_file?' for #<Jekyll::Page @name="index.md"> 
