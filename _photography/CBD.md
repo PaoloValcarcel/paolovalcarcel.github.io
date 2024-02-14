@@ -1,7 +1,7 @@
 ---
 title: "Central Business District"
 header:
-  teaser: /assets/images/CBD.jpg
+  teaser: /assets/images/Persona5.jpg
 ---
 A Central Business District (CBD) is a highly concentrated area of comercial activities which forms an economic and population density core in a city or region.
 In some cities, CBD is called financial district and usually includes many types of companies and commercial entrepreneurship.
