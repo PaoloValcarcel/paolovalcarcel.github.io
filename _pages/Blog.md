@@ -1,8 +1,8 @@
 ---
-title: Blog
-page_title: Blog
+title: 'Blog'
+layout: single
 permalink: /Blog/
-layout: posts
 author_profile: true
-publish: false
 ---
+
+## Blog
