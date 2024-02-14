@@ -2,5 +2,5 @@
 main:
   - title: "Home"
     url: /
-  #- title: ""
-  #  url: https://rpubs.com/PaoloVP/CBD
+  - title: "Rpubs"
+    url: https://rpubs.com/PaoloVP/CBD
