@@ -4,8 +4,7 @@
 
 .page__footer {
   @include clearfix;
-  // float: left;
-  text-align: center;
+  float: left;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
