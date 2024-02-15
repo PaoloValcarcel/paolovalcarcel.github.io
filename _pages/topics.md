@@ -2,7 +2,7 @@
 title: "List of topics"
 layout: collection
 permalink: /topics/
-collection: photography
+collection: topics
 entries_layout: grid
 classes: wide
 ---
