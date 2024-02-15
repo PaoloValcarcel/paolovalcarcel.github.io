@@ -316,7 +316,7 @@ defaults:
       related: false
  # _photography
   - scope:
-      path: ""
+      path: "_topics"
       type: photography
     values:
       layout: single
