@@ -317,7 +317,7 @@ defaults:
  # _photography
   - scope:
       path: ""
-      type: topics
+      type: photography
     values:
       layout: single
       author_profile: false
