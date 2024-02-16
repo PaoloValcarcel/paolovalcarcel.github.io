@@ -10,7 +10,7 @@ A Central Business District (CBD) is a highly concentrated area of comercial act
 
 <div style="text-align: justify"> 
 
-You can interact with different layers by modifying the output options. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
+<p> You can interact with different layers by modifying the output options. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
 </div>
 
 ## Footwear and food markets CBD in Bogotá
@@ -19,6 +19,6 @@ You can interact with different layers by modifying the output options. For more
 In Bogotá's case, the footwear market CBD is located principally in Restrepo and the food market CBD share its influence among Park Way, Galerías and part of Chapinero 
 </div>
 
-<div style="margin: auto; width: 700px; height: 503px; overflow: hidden; ">
+<div style="margin: auto; width: 672px; height: 480px; overflow: hidden; padding-left: 0">
     <iframe src="\assets\Shapes\CBD_Map.html" style="width: 100%; height: 100%; margin-left: -20px"></iframe>
 </div>
