@@ -13,6 +13,6 @@ You can interact with different layers by modifying the output options. For more
 
 In Bogotá's case, the footwear market CBD is located principally in Restrepo and the food market CBD share its influence among Park Way, Galerías and part of Chapinero 
 
-<div style="margin: auto; width: 695px; height: 501px; overflow: hidden; padding-left: 0">
+<div style="margin: auto; width: 696px; height: 502px; overflow: hidden; padding-left: 0">
     <iframe src="\assets\Shapes\CBD_Map.html" style="width: 100%; height: 100%; margin-left: -20px"></iframe>
 </div>
