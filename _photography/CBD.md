@@ -11,8 +11,16 @@ You can interact with different layers by modifying the output options. For more
 
 ## Footwear and food markets CBD in Bogotá
 
-In Bogotá's case, the footwear market CBD is located principally in Restrepo and the food market CBD share its influence among Park Way, Galerías and part of Chapinero 
+In Bogotá's case, the footwear market CBD is located principally in Restrepo and the food market CBD share its influence among Park Way, Galerías and part of Chapinero. 
 
 <div style="margin: auto; width: 696px; height: 502px; overflow: hidden; padding-left: 0">
-    <iframe src="\assets\Shapes\CBD_Map.html" style="width: 100%; height: 100%; margin-left: -20px"></iframe>
+    <iframe src="\assets\Shapes\CBD_Bogota_Mapa.html" style="width: 100%; height: 100%; margin-left: -20px"></iframe>
+</div>
+
+## Footwear and food markets CBD in Lima
+
+In Lima's case, the footwear market CBD is located in different parts of the city like Ciudad de Dios, Gamarra, a part of Jesús María and Plaza Norte. Besides, the food market CBD is more concentrated in Miraflores, Surquillo and a part of Lince.
+
+<div style="margin: auto; width: 696px; height: 502px; overflow: hidden; padding-left: 0">
+    <iframe src="\assets\Shapes\CBD_Lima_Mapa.html" style="width: 100%; height: 100%; margin-left: -20px"></iframe>
 </div>
