@@ -16,8 +16,14 @@ Moran's I is a global measure of spatial autocorrelation that quantifies the deg
 In order to make an example of this test, I simulated a database of socioeconomic status and the amount of homicides in Bogotá focusing in Teusaquillo town. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
 
 <div style="text-align:center">
-    <img src="/assets/Maps/Moran_Bivariado.png" alt="Moran" width="80%">
+    <img src="/assets/Maps/Mbi_Bogota.png" alt="Moran" width="80%">
 </div>
 
+## A study case in Lima
 
+To continue with the examples, I simulated a databsae of poverty level and per capita household spending level for Lima. The administrative boundaries are in level 2. 
+
+<div style="text-align:center">
+    <img src="/assets/Maps/Mbi_Lima.png" alt="Moran" width="80%">
+</div>
 
