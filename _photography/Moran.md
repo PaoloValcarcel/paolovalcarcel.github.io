@@ -1,7 +1,7 @@
 ---
 title: "Spatial Autocorrelation"
 header:
-  teaser: /assets/images/Correlation.png
+  teaser: /assets/images/Persona3.PNG
 ---
 Spatial autocorrelation is a concept that refers to the degree to which the values of a variable are correlated in space. In other words, it examines whether nearby locations tend to have similar values for a particular variable. It is an essential concept in understanding spatial patterns and dependencies in data. Understanding spatial autocorrelation is crucial for making informed decisions in spatial analysis and modeling, as it provides insights into the underlying spatial structure of data and helps to identify spatial dependencies that may affect statistical inference and modeling assumptions.
 
@@ -15,8 +15,8 @@ Moran's I is a global measure of spatial autocorrelation that quantifies the deg
 
 In order to make an example of this test, I simulated a database of socioeconomic status and the amount of homicides in Bogotá focusing in Teusaquillo town. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
 
-<div style="text-align:center; margin-bottom: 2px;">
-    <img src="/assets/Maps/Mbi_Bogota.png" alt="Moran" width="80%">
+<div style="text-align:center">
+    <img src="/assets/Maps/Mbi_Bogota.png" alt="Moran" width="80%" style="margin-bottom: 5px;">
 </div>
 
 ## A study case in Lima
