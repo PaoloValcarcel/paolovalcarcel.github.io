@@ -1,7 +1,7 @@
 ---
 title: "Spatial Autocorrelation"
 header:
-  teaser: /assets/images/Persona3.PNG
+  teaser: /assets/images/Datos.PNG
 ---
 Spatial autocorrelation is a concept that refers to the degree to which the values of a variable are correlated in space. In other words, it examines whether nearby locations tend to have similar values for a particular variable. It is an essential concept in understanding spatial patterns and dependencies in data. Understanding spatial autocorrelation is crucial for making informed decisions in spatial analysis and modeling, as it provides insights into the underlying spatial structure of data and helps to identify spatial dependencies that may affect statistical inference and modeling assumptions.
 
