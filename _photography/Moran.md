@@ -13,7 +13,7 @@ Moran's I is a global measure of spatial autocorrelation that quantifies the deg
 
 ## A study case in Bogotá
 
-In order to make an example of this test, I simulated a database of socioeconomic status and the amount of homicides in Bogotá focusing in Teusaquillo town. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
+In order to make an example of this test, I simulated a database of socioeconomic status and violent acts in Bogotá focusing in Teusaquillo. The graph shows places with different socioeconomic levels in which acts of violence occur on different scales. For example, red areas have a high socioeconomic level but suffer from a high level of violence.
 
 <div style="text-align:center">
     <img src="/assets/Maps/Mbi_Bogota.png" alt="Moran" width="80%" style="margin-bottom: 5px;">
@@ -21,7 +21,7 @@ In order to make an example of this test, I simulated a database of socioeconomi
 
 ## A study case in Lima
 
-To continue with the examples, I simulated a databsae of poverty level and per capita household spending level for Lima. The administrative boundaries are in level 2. 
+To continue with the examples, I simulated a databsae of poverty level and per capita household spending level for Lima. The administrative boundaries are in level 2. The way to understand the graph is the same than the last one. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
 
 <div style="text-align:center">
     <img src="/assets/Maps/Mbi_Lima.png" alt="Moran" width="80%">
