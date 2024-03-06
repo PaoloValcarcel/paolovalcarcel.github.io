@@ -1,7 +1,7 @@
 ---
 title: "Agglomeration economics"
 header:
-  teaser: /assets/images/WIP.png
+  teaser: /assets/images/WIP.PNG
 ---
 
 Uploading...
