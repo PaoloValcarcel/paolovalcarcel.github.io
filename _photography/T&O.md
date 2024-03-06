@@ -1,5 +1,5 @@
 ---
-title: "Agglomeration economics"
+title: "Agglomeration economies"
 header:
   teaser: /assets/images/WIP.PNG
 ---
