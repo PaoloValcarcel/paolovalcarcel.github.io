@@ -18,11 +18,13 @@ Below I show you two examples made with information from Encuesta Nacional de Ho
     <img src="/assets/Agglomeration/DO.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
+The first graph shows you the agglomeration distance and its behavior through a specific territory.
+
 <div style="text-align:center">
     <img src="/assets/Agglomeration/KR.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
-
+The second graph shows you the agglomeration points based on a certain space. The function compares the value observed at a certain distance with the value expected at that same distance.
 
 
 
