@@ -19,7 +19,7 @@ Below I show you two examples made with information from Encuesta Nacional de Ho
 </div>
 
 <div style="text-align:center">
-    <img src="/assets/Agglomeration/KRipley.PNG" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
+    <img src="/assets/Agglomeration/KR.PNG" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
 
