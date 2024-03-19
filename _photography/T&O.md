@@ -1,7 +1,7 @@
 ---
 title: "Agglomeration economies"
 header:
-  teaser: /assets/images/Agglomeration.JPG
+  teaser: /assets/images/Agglomeration.jpg
 ---
 
 Agglomeration economies refer to the benefits that firms and industries gain from locating close to one another within a particular geographic area. These benefits arise from various sources, including: labor pool, knowledge spillovers, specialized suppliers and services, infrastructure and amenities, access to markets and risk sharing and flexibility.
@@ -15,11 +15,11 @@ In order to test agglomeration economies, there are some test or procedures that
 Below I show you two examples made with information from Encuesta Nacional de Hogares (2016), specifically with the number of companies registered in that year. This data contains georeferenced companies by geographic areas. 
 
 <div style="text-align:center">
-    <img src="/assets/Agglomeration/DO.PNG" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
+    <img src="/assets/Agglomeration/DO.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
 <div style="text-align:center">
-    <img src="/assets/Agglomeration/KR.PNG" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
+    <img src="/assets/Agglomeration/KR.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
 
