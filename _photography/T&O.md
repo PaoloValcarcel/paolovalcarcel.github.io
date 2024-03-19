@@ -18,7 +18,7 @@ Below I show you two examples made with information from Encuesta Nacional de Ho
     <img src="/assets/Agglomeration/DO.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
 </div>
 
-The first graph shows you the agglomeration distance and its behavior through a specific territory.
+The first graph shows you the agglomeration distance and its behavior through a specific territory. For more information regarding the commands used, please feel free to email me on <a href="mailto:p.valcarcel@uniandes.edu.co">p.valcarcel@uniandes.edu.co</a>.
 
 <div style="text-align:center">
     <img src="/assets/Agglomeration/KR.png" alt="Agglomeration" width="80%" style="margin-bottom: 5px;">
